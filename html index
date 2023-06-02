@@ -1,0 +1,88 @@
+!DOCTYPE html>
+<html>
+<head>
+  <title>Language website | Beginning pages</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Languages</a></li>
+        <li><a href="#team">Teachers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <h1>Welcome to B-lingo!</h1>
+      <p>Learn languages in a fun and interactive way!</p>
+      <a href="#contact" class="button">Get Started</a>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>WHAT IS B-LINGO?</h2>
+      <p>B-lingo is a website designed to help people who want to learn multiple languages, and have fun doing so.</p>
+      <p>Explore the different languages we can teach.</p>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>Languages available:</h2>
+        <div class="container">
+          <div class="feature">
+            <img src="images/Spanish.png" alt="Spanish">
+            <h3>Spanish</h3>
+            <p>A great choice, as many countries such as brazil and portugal have similarities in their manner of speech.</p>
+          </div>
+          <div class="feature">
+            <img src="images/Arabic.png" alt="Arabic">
+            <h3>Arabic</h3>
+            <p>Perhaps one of the most complicated languages, yet one of the most beautiful and descriptive.</p>
+          </div>
+          <div class="feature">
+            <img src="images/Japanese.png" alt="Japanese">
+            <h3>Japanese</h3>
+            <p>The demand for learning japanese has been on the rise because of japanese media such as anime. However, the intricacies of it must not be underestimated.</p>
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="team" class="team-section">
+      <h2>MEET YOUR EDUCATORS:</h2>
+      <div class="container">
+        <div class="team-member">
+          <img src="images/Steacher.png" alt="Team Member 1">
+          <h3>Maria Lopez</h3>
+          <p>Spanish teacher</p>
+        </div>
+        <div class="team-member">
+          <img src="images/Ateacher.png" alt="Team Member 2">
+          <h3>Iman Ahmed</h3>
+          <p>Arabic teacher</p>
+        </div>
+        <div class="team-member">
+            <img src="images/Jteacher.png" alt="Team Member 2">
+            <h3>Joey Bizinger</h3>
+            <p>Japanese teacher</p>
+          </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>CONTACT US!</h2>
+      <p>If you have any inquiries or questions, please feel free to call us or message us on WhatsApp: 0503315009</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 B-lingo. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
